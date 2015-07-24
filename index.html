@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>viewport fun</title>
+	<style>
+
+		*{
+
+			background: lightgrey;
+			height:3000px;
+			width:1000;
+		}
+
+
+		#ayy{
+			
+			position: fixed;
+			font-family: "Comic Sans MS";
+			width: 300px;
+			height: 250px;
+			bottom: -250px;
+			transition: bottom 15s ease;
+			background-repeat: repeat-x;
+			background-image: url("./Alien_head.gif");
+			
+		}
+
+		#ayy p{
+
+			color: purple;
+			background: rgba(0,0,0,0);
+
+		}
+
+	
+	</style>
+</head>
+<body onload="changeBottom()">
+	
+	<script>
+		function changeBottom(){
+			document.getElementById('ayy').style.bottom = 0;
+		}
+	</script>
+
+
+
+	<div id="ayy">
+	
+		<p >ayyyyyyyy lmao</p>
+	</div>
+
+
+	
+
+</body>
+</html>
