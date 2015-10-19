@@ -7,3 +7,5 @@ go to the repo in command line and type:
 > npm install http-server
 
 > http-server
+
+enjoy
